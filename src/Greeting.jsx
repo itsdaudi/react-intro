@@ -1,6 +1,6 @@
 //Greeting component
-function Greeting(){
-    return <h2>Welcome to React</h2>
+function Greeting({name}){
+    return <h2>Hello {name}</h2>
 }
 
 export default Greeting;

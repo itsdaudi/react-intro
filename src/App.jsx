@@ -2,13 +2,12 @@ import './App.css'
 import Greeting from './Greeting';
 
 function App() {
-const name = "Student";
   return (
     //jsx allows js inside of UI
+    //components can receive data- we call that props
     <>
-  <h1>Hello {name}</h1>
-  <Greeting/>
-  </>
+  <Greeting name ="Eugene"/> 
+</>
   )
 }
 
