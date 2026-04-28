@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app-container">
       {/* Props example */}
-      <Greeting name="Skylar" />
+      <Greeting name="Eugene" />
 
       {/* State example */}
       <Counter />
