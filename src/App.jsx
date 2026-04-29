@@ -18,5 +18,6 @@ function App() {
 }
 
 export default App;
-//create a component
-function  profile () {};
+
+//creating profile component
+import React from "react";
